@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Set;
 
+//300 hours later!!!
+
 public class StudentClass extends SchoolLocation {
     private String username, password;
     private LinkedHashMap<String, Integer> classNameAndScore;
@@ -19,7 +21,7 @@ public class StudentClass extends SchoolLocation {
         super(location);
         setUsernamePassword(username,password);
     }
-
+//almost done
     public void setUsernamePassword (String userName, String passWord){
         LinkedHashMap<String,String> checkUserNameAndPassword;
         StudentData studentData = new StudentData();
